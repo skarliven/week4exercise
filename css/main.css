@@ -1,0 +1,37 @@
+body {
+	text-align: center;
+}
+.box {
+	display: inline-block;
+	height: 300px;
+	width: 23%;
+}
+.purple {
+  background-color: purple;
+}
+.pink {
+  background-color: pink;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+
+@media (max-width: 600px) {
+  .pink, .blue {
+    display: none;
+  }
+}
+@media (min-width: 1000px) {
+  .box {
+    width: 100%;
+  }
+}
+
+.container {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+}
